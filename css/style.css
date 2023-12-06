@@ -1,0 +1,240 @@
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 20;
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #333;
+}
+
+
+p {
+    font-family: "Times New Roman", serif;
+    color: #555;
+}
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+
+.cuadro-de-enlace {
+    display: flex;
+    align-items: center;
+}
+
+.cuadro-de-enlace a {
+    text-decoration: none;
+}
+
+.cuadro-de-enlace img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+
+.concentration-rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.rating-label {
+    margin-right: 10px;
+}
+
+
+#videoPlayer {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+form[action="procesar-archivo.php"] input[type="submit"],
+form[action="procesar-calificacion.php"] input[type="submit"],
+form[action="procesar-licencia.php"] input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+a[download] {
+    text-decoration: none;
+}
+
+a[download] button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+h4 {
+    font-size: 22px;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+form[action="procesar-archivos.php"] input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+button[onclick="cargarVideo()"],
+button[onclick="cargarVideoDesdeArchivo()"] {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        font-size: 14px;
+    }
+
+    .cuadro-de-enlace img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    textarea {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    textarea {
+        font-size: 18px;
+    }
+}
+

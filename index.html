@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+</head>
+<body>
+<main>
+<div>
+<h1>HOJA DE VIDA</h1> 
+<P>Solucionamos tu trabajo como tu presentaciòn...</P>
+</div>
+<div>
+<img src="./Imagen correo electronico.png">
+<img src="./Imagen de face.png">
+<img src="./Imagen de In.png">
+</div>
+<div>
+<img src="./Imagen de datos personales.jpg" alt="Persona sentada hablando por telefono en la oficina, SECCIÒN DATOS PERSONALES">
+<img src="./Imagen de experiencia.jpg" alt="Personas reunidas en una reunion hablando, SECCIÒN EXPERIENCIA Y COMPETENCIAS">
+<img src="./Imagenes de seccion personalizada.jpg" alt="Dos personas sentadas trabajando, SECCIÒN PERSONALIZADA">
+</div>
+
+</main>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Datos personales</title>
+    <style>
+        body{
+            font-family: "Arial", sans-serif;
+        }
+        h1 {
+            font-family: "Helvetica Neue", sans-serif;
+        }
+
+        p {
+            font-family: "Times New Roman", serif;
+        }
+    </style>
+</head>
+<body>
+<header>
+
+<img src="./s.png">
+<nav>
+<select name="" id="">
+<option value="Datos Personales">Datos Personales</option>
+<option value="Secciòn Personalizada">Secciòn Personalizada</option>
+<option value="Experiencia y Competencias">Experiencia y Competencias</option>
+</select>
+<li>Datos Personales</li>
+<li>Secciòn Personalizada</li>
+<li>Experiencia y Competencias</li>
+</nav>
+</header>
+<main>
+    <div>
+        <h2>Datos Personales</h2>
+    </div>
+<div class="cuadro-de-enlace">
+    <a href="enlace-de-la-foto.jpg" target="_blank">
+        <img src="miniatura-de-la-foto.jpg" alt="Foto">
+    </a>
+</div>
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono" required>    
+</div>
+<div>
+    <label for="Celular">Celular</label>
+    <input type="Cel" id="Celular" name="Celular" placeholder="Ingrese su numero" required>
+<div>
+    <label for="ciudad">Ciudad</label>
+    <select id="ciudad" name="ciudad" required>
+        <option value="">Seleccione su ciudad</option>
+        <option value="ciudad1">Ciudad 1</option>
+        <option value="ciudad2">Ciudad 2</option>
+    </select>
+</div>
+<div>
+<div>
+    <label for="fecha-nacimiento"><p>Fecha de Nacimiento</p></label>
+    <select id="dia" name="dia">
+        <option value="">Día</option>
+    </select>
+    <select id="mes" name="mes">
+        <option value="">Mes</option>
+    </select>
+    <select id="anio" name="anio">
+        <option value="">Año</option>
+    </select>
+</div> 
+<div>
+<div>
+<div>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+</div> 
+<div>
+    <label for="correo">Correo Electrónico</label>
+    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>    
+</div>
+<div>
+    <label for="edad">Edad (máximo 45)</label>
+    <input type="number" id="edad" name="edad" min="0" max="45" placeholder="Ingrese su edad" required>      
+</div>
+<div>
+    <label for="departamento">Departamento</label>
+    <select id="departamento" name="departamento" required>
+        <option value="">Seleccione su departamento</option>
+        <option value="Cali">Cali</option>
+        <option value="Antioquia">Antioquia</option>
+        <option value="Arauca">Arauca</option>
+    </select>
+</div>
+<div>
+    <label for="genero">Género</label>
+    <select id="genero" name="genero" required>
+        <option value="">Seleccione su género</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+    </select>
+</div>
+</div>
+<div>
+<div>
+    <label for="Primer Apellido">Primer Apellido</label>
+    <input type="text" id="Primer Apellido" name="Primer Apellido" placeholder="Ingrese su apellido " required>
+    
+    <label for="Sengundo Apellido">Sengundo Apellido</label>
+    <input type="text" id="Sengundo Apellido" name="Sengundo Apellido" placeholder="Ingrese su apellido " required>      
+</div>
+<div>
+    <label for="calle">Calle</label>
+    <input type="text" id="calle" name="calle" placeholder="Ingrese el nombre de la calle" required>
+    
+    <label for="numero">Número</label>
+    <input type="text" id="numero" name="numero" placeholder="Ingrese el número de la casa/apartamento" required>
+    
+    <label for="codigo-postal">Código Postal</label>
+    <input type="text" id="codigo-postal" name="codigo-postal" placeholder="Ingrese el código postal" required>    
+</div>
+<div>
+    <label for="cedula">Cédula de Identidad</label>
+    <input type="text" id="cedula" name="cedula" placeholder="Ingrese su número de cédula" required>    
+</div>
+<div>
+    <label for="nivel-academico">Nivel Académico</label>
+    <select id="nivel-academico" name="nivel-academico" required>
+        <option value="">Seleccione el nivel académico</option>
+        <option value="primaria">Primaria</option>
+        <option value="secundaria">Secundaria</option>
+        <option value="preparatoria">Preparatoria</option>
+        <option value="universidad">Universidad</option>
+        <option value="posgrado">Posgrado</option>
+        <option value="otro">Otro</option>
+    </select>
+</div>
+<div>
+    <form action="procesar-archivo.php" method="post" enctype="multipart/form-data">
+        <label for="archivo">Cargar documento</label>
+        <input type="file" id="archivo" name="archivo" accept=".pdf, .doc, .docx">
+        <input type="submit" value="Cargar">
+    </form>    
+</div>
+</div>
+</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencia y Competencias</title>
+</head>
+<body>
+<main>
+    <div>
+        <h3>Experiencia y Competencias</h3>
+    </div>
+<di>
+<div>
+    <section>
+        <nav class="search-bar">
+            <form action="buscar.php" method="get">
+                <input type="text" id="busqueda" name="q" placeholder="Buscar..." required>
+                <input type="submit" value="Buscar">
+            </form>
+        </nav>
+        <p>Experiencia Laboral</p>
+        <textarea class="experiencia" id="experiencia-laboral" name="experiencia-laboral" placeholder="Ingrese su experiencia laboral aquí"></textarea>
+    </section>
+    
+    <section>
+        <p>Otra Experiencia</p>
+        <textarea class="experiencia" id="otra-experiencia" name="otra-experiencia" placeholder="Ingrese otra experiencia aquí"></textarea>
+    </section>
+</div>
+<div>
+    <section>
+        <p>Puesto Altual</p>
+        <textarea class="puesto" id="puesto actual" name="puesto actual" placeholder="Ingrese "></textarea>
+    </section>
+    <section>
+        <p>Estado Civil</p>
+        <textarea class="estado" id="estado civil" name="estado civil" placeholder="Ingrese "></textarea>
+    </section>
+</div>
+<div>
+    <section>
+        <p>Empleador</p>
+        <textarea class="empleador" id="empleador" name="empleador" placeholder="Ingrese "></textarea>
+    </section>
+    <section>
+        <p>Tipo de experiencia</p>
+        <textarea class="tipo de experiencia" id="tipo de experiencia" name="tipo de experiencia" placeholder="Ingrese "></textarea>
+    </section>
+</div>
+<div>
+    <section>
+        <p>Descripciòn</p>
+        <textarea class="descripciòn" id="descripciòn" name="descripciòn" placeholder="Ingrese "></textarea>
+        <div>
+            <form action="procesar-archivo.php" method="post" enctype="multipart/form-data">
+                <label for="archivo">Cargar documento </label>
+                <input type="file" id="archivo" name="archivo" accept=".pdf, .doc, .docx">
+                <input type="submit" value="Cargar">
+            </form>    
+        </div>
+    </section>
+</div>
+</di>
+<di>
+    <section>
+        <p>Competencias y Habilidades</p>
+        <textarea class="competencias y habilidades" id="competencias y habilidades " name="competencias y habilidades" placeholder="Ingrese "></textarea>
+    </section>
+</di>
+<div>
+    <section>
+        <p>Nivel de Habilidades</p>
+        <textarea class="nivel de  habilidades" id="nivel de habilidades " name="nivel de habilidades" placeholder="Ingrese "></textarea>
+
+
+    </section>
+<div>
+    <section>
+        <p>Honores</p>
+        <textarea class="honores" id="honores" name="honores" placeholder="Ingrese "></textarea>
+    </section> 
+</div>
+<div>
+    <div>
+        <p>Cursos</p> 
+        <textarea class="curso" id="curso" name="curso" placeholder="Ingrese sus cursos "></textarea>
+        <select id="mes" name="mes">
+        </section> 
+            <option value="">Día</option>
+        </select>
+        <select id="mes" name="mes">
+            <option value="">Mes</option>
+        </select></div>
+    <div>
+        <p>Descripciòn</p>
+        <textarea class="descripciòn" id="descripciòn" name="descripciòn" placeholder="Ingrese "></textarea>
+</div>
+</div>
+</main>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección Personalizada</title>
+</head>
+<body>
+<main>
+    <div>
+        <h4>Sección Personalizada</h4>
+    </div> 
+<div>
+<div>
+        <p>Logros</p>
+    <section>
+        <p>Subir Archivos</p>
+        <form action="procesar-archivos.php" method="post" enctype="multipart/form-data">
+            <label for="archivo">Seleccionar archivo</label>
+            <input type="file" id="archivo" name="archivo" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx">
+            <input type="submit" value="Subir Archivo">
+        </form>
+    </section>
+    <div>
+        <p>Parrafó</p>
+        <textarea class="parrafo" id="parrafo" name="parrafo" placeholder="Escirba un parrafo aqui.. "></textarea>
+    </div>
+    <div>
+        <p>Referencias</p>
+        <textarea class="referencias" id="referencias" name="referencias" placeholder="Referencias aqui.. "></textarea> 
+    </div>
+    <div>
+        <p>Destrezas</p>
+        <textarea class="destrezas" id="destrezas" name="destrezas" placeholder="Diganos sobre sus destrezas.. "></textarea>   
+    </div>
+</div>
+</div>
+<div>
+    <header>
+        <p>Nivel de Concentración</p>
+    </header>
+    
+    <section>
+        <form action="procesar-calificacion.php" method="post">
+            <div class="concentration-rating">
+                <label class="rating-label">
+                    <input type="radio" name="concentration" value="bajo"> Bajo
+                </label>
+                <label class="rating-label">
+                    <input type="radio" name="concentration" value="medio"> Medio
+                </label>
+                <label class="rating-label">
+                    <input type="radio" name="concentration" value="alto"> Alto
+                </label>
+                <p>Comentario</p>
+                 <textarea class="destrezas" id="destrezas" name="destrezas" placeholder="Diganos sobre sus destrezas.. "></textarea> 
+            </div>
+        </form>
+    </section>
+    <div>
+        <p>Redes Sociales</p>
+        <textarea class="redes sociales" id="redes sociales" name="redes sociales" placeholder="Ingrese aqui sus redes.. "></textarea>    
+    </div>
+    <div>
+          <header>
+        
+            <p>Mi Video</p>
+
+          </header>
+                
+            <section>
+                    
+                    
+             <p>Insertar el Video</p>
+                <div>
+                        
+                        <label for="videoURL">Insertar URL del Video</label>
+                        
+                         <input type="text" id="videoURL" name="videoURL" placeholder="URL del video">
+
+                        <button onclick="cargarVideo()">Cargar Video</button>
+                </div>
+                           
+                <div>
+                        <label for="videoFile">Subir Video desde tu Computadora</label>
+                        <input type="file" id="videoFile" name="videoFile">
+                        <button onclick="cargarVideoDesdeArchivo()">Cargar Video</button>
+                </div>
+
+                    <video id="videoPlayer" controls>
+
+                 </video>
+
+            </section>
+    </div>
+    <div>
+        <header>
+            <p>Carga de Licencia de Conducción</p>
+        </header>
+        
+        <section>
+            <form action="procesar-licencia.php" method="post" enctype="multipart/form-data">
+                <label for="licencia">Seleccionar archivo de licencia</label>
+                <input type="file" id="licencia" name="licencia" accept=".pdf, .jpg, .jpeg, .png">
+                <input type="submit" value="Cargar Licencia">
+            </form>
+        </section>
+    </div>
+    <div>
+
+        <header>
+            <p>Selecciona tu Idioma</p>
+        </header>
+
+        <section>
+            <p>Idioma</p>
+            <form>
+            
+                <label for="idioma">Selecciona tu idioma</label>
+                 <select id="idioma" name="idioma">
+                    <option value="ingles">Inglés</option>
+                    <option value="frances">Francés</option>
+                    <option value="espanol">Español</option>
+                    <option value="otros">Otros</option>
+                 </select>
+
+            </form>
+        
+        </section>
+    </div>
+    <div>
+        </header>
+            <p>Descargar de Documento</p>
+        </header>
+
+        <section>
+            
+                <a href="documento.pdf" download="documento.pdf">
+                <button>Descargar Documento</button>
+                 </a>
+
+        </section>
+    </div>
+</div>
+</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
